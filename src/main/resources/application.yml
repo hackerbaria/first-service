@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: first-service
+server:
+  port: 8081
+springdoc:
+  api-docs:
+    path: /employee/v3/api-docs
+  swagger-ui:
+    path: /employee/swagger-ui.html
+
+
